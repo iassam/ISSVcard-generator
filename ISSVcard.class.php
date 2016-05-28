@@ -9,6 +9,7 @@ class ISSVcard
   private $name = NULL;
   private $fullName = NULL;
   private $phone = NULL;
+  private $email = NULL;
   private $finalReg = '';
 
   function __construct($version)
